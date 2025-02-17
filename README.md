@@ -26,7 +26,11 @@ Python : NumPy, Pandas, Matplotlib, Seaborn
 
 ### 데이터셋 개요
 금 시세 데이터: `gold_usd_price.csv`
+
+
 (2000년~2024년)
+
+
 비트코인 시세 데이터: `btc_2012_2024.csv` 
 (2012년~2024년)
 
