@@ -46,7 +46,7 @@ Python : NumPy, Pandas, Matplotlib, Seaborn
 다양한 모델을 활용하여 비트코인 가격을 예측하고 성능을 비교하였습니다.
 금 시세와 비트코인 시세의 상관관계가 거의 없다는것을 확인(0.6497510785139097)한 후 BTC 지표(고가(high_btc), 저가(low_btc) , 거래량(volume_btc))를 분석에 포함하였습니다.
 
-# 1. 선형 회귀 (Linear Regression)
+### 1. 선형 회귀 (Linear Regression)
   활용 데이터 : 금 시세 + BTC 지표 
 
   예측 성능 (R²): 0.99
