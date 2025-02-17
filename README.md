@@ -53,30 +53,43 @@ Python : NumPy, Pandas, Matplotlib, Seaborn
 
 2. 다항 회귀 (Polynomial Regression)]
 활용 데이터 : 금 시세만
+
 예측 성능 (R²): 0.60 
 
 3. 의사결정트리 (Decision Tree)
+
 활용 데이터:금 시세 + BTC 지표
+
 예측 성능 (R²): 0.98
 
 4. 랜덤 포레스트 (Random Forest)
+
 활용 데이터:금 시세 + BTC 지표 
+
 예측 성능 (R²): 0.99
 
 5. XGBoost
+
 활용 데이터:금 시세 + BTC 지표
+
 예측 성능 (R²): 0.99
 
 6. Gradient Boosting
+
 활용 데이터:금 시세 + BTC 지표
+
 예측 성능 (R²): 0.99
 
 7. 인공신경망 (ANN - MLP)
+
 활용 데이터:금 시세 + BTC 지표
+
 예측 성능 (R²): 0.98
 
 8. LSTM
+
 활용 데이터:금 시세 + BTC 지표
+
 예측 성능 (R²): 0.99
 
 ## 모델링 요약
