@@ -27,7 +27,6 @@ Python : NumPy, Pandas, Matplotlib, Seaborn
 ### 데이터셋 개요
 금 시세 데이터: `gold_usd_price.csv`
 
-
 (2000년~2024년)
 
 
