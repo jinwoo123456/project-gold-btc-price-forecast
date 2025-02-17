@@ -33,7 +33,9 @@ Python : NumPy, Pandas, Matplotlib, Seaborn
 (2012년~2024년)
 
 데이터 병합: 날짜(`date`)를 기준으로 병합
+
 학습 데이터(train): 2012년 ~ 2022년
+
 테스트 데이터(test): 2023년 ~ 2024년
 
 ### 상관관계 분석
