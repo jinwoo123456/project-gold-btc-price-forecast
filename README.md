@@ -51,7 +51,7 @@ Python : NumPy, Pandas, Matplotlib, Seaborn
 
   예측 성능 (R²): 0.99
 
-### 2. 다항 회귀 (Polynomial Regression)]
+### 2. 다항 회귀 (Polynomial Regression)
   활용 데이터 : 금 시세만
 
   예측 성능 (R²): 0.60 
@@ -93,32 +93,32 @@ Python : NumPy, Pandas, Matplotlib, Seaborn
   예측 성능 (R²): 0.99
 
 ## 모델링 요약
-**선형 회귀, 랜덤 포레스트, XGBoost, LSTM** 모델이 가장 높은 성능(R² ≈ 0.99) 기록
-**다항 회귀 모델(Polynomial Regression)의 경우 과소적합(Underfitting) 문제 발생 (R² = 0.60)**
-**LSTM 모델이 금융 데이터의 시계열적 특성을 반영하여 우수한 성능을 보임**
-**랜덤 포레스트 및 XGBoost 모델이 비교적 안정적인 예측을 수행**
+선형 회귀, 랜덤 포레스트, XGBoost, LSTM 모델이 가장 높은 성능(R² ≈ 0.99) 기록
+다항 회귀 모델(Polynomial Regression)의 경우 과소적합(Underfitting) 문제 발생 (R² = 0.60)
+LSTM 모델이 금융 데이터의 시계열적 특성을 반영하여 우수한 성능을 보임
+랜덤 포레스트 및 XGBoost 모델이 비교적 안정적인 예측을 수행
 
 ## 성능 평가 및 분석
 
 ### 1. 평가 지표
-**MSE (Mean Squared Error)**
-**MAE (Mean Absolute Error)**
-**RMSE (Root Mean Squared Error)**
-**R² (결정계수, 모델 설명력 평가)**
+MSE (Mean Squared Error)
+MAE (Mean Absolute Error)
+RMSE (Root Mean Squared Error)
+R² (결정계수, 모델 설명력 평가)
 
 ### 2. 시각화 분석
-**금 가격(Gold price)과 비트코인 가격(BTC price)의 시계열 변동 분석**
-**모델별 예측값(Predicted)과 실제값(Actual)을 비교하는 그래프를 통해 성능 평가**
-**XGBoost, 랜덤 포레스트, LSTM 모델이 가장 실제값과 유사한 경향을 보임**
-**R² 성능 비교 차트에서 다항 회귀(Polynomial Regression)의 성능이 가장 낮게 나타남**
+금 가격(Gold price)과 비트코인 가격(BTC price)의 시계열 변동 분석**
+모델별 예측값(Predicted)과 실제값(Actual)을 비교하는 그래프를 통해 성능 평가
+XGBoost, 랜덤 포레스트, LSTM 모델이 가장 실제값과 유사한 경향을 보임
+R² 성능 비교 차트에서 다항 회귀(Polynomial Regression)의 성능이 가장 낮게 나타남
 
 
 
 
 ## 결과
-**LSTM 모델이 금융 시계열 데이터에서 효과적임을 확인**
-**XGBoost와 랜덤 포레스트가 높은 성능을 제공하면서도 계산량이 적음**
-**단순 선형 회귀도 강력한 성능을 보였으나, 미래 예측에는 한계가 존재**
+LSTM 모델이 금융 시계열 데이터에서 효과적임을 확인
+XGBoost와 랜덤 포레스트가 높은 성능을 제공하면서도 계산량이 적음
+단순 선형 회귀도 강력한 성능을 보였으나, 미래 예측에는 한계가 존재
 
 
 
