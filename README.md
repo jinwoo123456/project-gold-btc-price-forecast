@@ -3,6 +3,7 @@
 ## 프로젝트 개요
 본 프로젝트는 금(Gold) 시세와 비트코인(Bitcoin) 시세 간의 상관관계를 분석하고, 다양한 머신러닝 및 딥러닝 모델을 활용하여 비트코인 가격을 예측하는 것을 목표로 합니다.
 jupyter Notebook으로 제작되었습니다.
+데이터셋은 Kaggle을 이용하였습니다.
 
 ## 기술 스택
 ### 사용한 언어 및 라이브러리
@@ -101,14 +102,11 @@ LSTM 모델이 금융 데이터의 시계열적 특성을 반영하여 우수한
 ## 성능 평가 및 분석
 
 ### 1. 평가 지표
-MSE (Mean Squared Error)
-MAE (Mean Absolute Error)
-RMSE (Root Mean Squared Error)
-R² (결정계수, 모델 설명력 평가)
+MSE MAE RMSE R²
 
 ### 2. 시각화 분석
-금 가격(Gold price)과 비트코인 가격(BTC price)의 시계열 변동 분석**
-모델별 예측값(Predicted)과 실제값(Actual)을 비교하는 그래프를 통해 성능 평가
+금 가격과 비트코인 가격의 시계열 변동 분석
+모델별 예측값과 실제값을 비교하는 그래프를 통해 성능 평가
 XGBoost, 랜덤 포레스트, LSTM 모델이 가장 실제값과 유사한 경향을 보임
 R² 성능 비교 차트에서 다항 회귀(Polynomial Regression)의 성능이 가장 낮게 나타남
 
